@@ -6,6 +6,12 @@ TagManager:
   tags:
   - PickUp
   - Enemy
+  - pinkGem
+  - greenGem
+  - blueGem
+  - pinkBox
+  - greenBox
+  - blueBox
   layers:
   - Default
   - TransparentFX
