@@ -712,6 +712,7 @@ GameObject:
   - component: {fileID: 964201649}
   - component: {fileID: 964201648}
   - component: {fileID: 964201647}
+  - component: {fileID: 964201651}
   m_Layer: 0
   m_Name: pinkBox_collider
   m_TagString: pinkBox
@@ -800,11 +801,24 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.9999985, y: 0.388, z: 3.41}
-  m_LocalScale: {x: 0.84974, y: 0.84974, z: 0.84974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &964201651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964201646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4e77ecdb5659c243959082f0503f8be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target_tag: pinkGem
 --- !u!1 &978368094 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2573013051975258517, guid: e1dcc1756599cdb45b9d838c33287a10,
