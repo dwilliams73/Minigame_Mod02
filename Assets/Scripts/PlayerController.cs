@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 
 
     // Variable to keep track of collected "PickUp" objects.
-    private int count;
+    public int count;
     public AudioSource audioSource;
 
     // Movement along X and Y axes.

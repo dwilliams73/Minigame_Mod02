@@ -12,6 +12,7 @@ TagManager:
   - pinkBox
   - greenBox
   - blueBox
+  - Hand
   layers:
   - Default
   - TransparentFX
@@ -20,9 +21,9 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
+  - Hand
+  - Container
+  - Grab
   - 
   - 
   - 
